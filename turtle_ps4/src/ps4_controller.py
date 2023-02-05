@@ -81,3 +81,4 @@ if __name__ == '__main__':
     # fill in the other service client object...
     srv_clr_bg = rospy.ServiceProxy("clear", Empty)
     rospy.spin()
+
